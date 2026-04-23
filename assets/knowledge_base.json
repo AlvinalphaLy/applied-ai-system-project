@@ -1,0 +1,29 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "kb-001",
+      "title": "Medication timing best practice",
+      "content": "Medication tasks should be prioritized before optional enrichment and should not be skipped when time is limited."
+    },
+    {
+      "chunk_id": "kb-002",
+      "title": "Feeding and walk spacing",
+      "content": "For many dogs, avoid high-intensity walks immediately after a meal; leave buffer time before heavy activity."
+    },
+    {
+      "chunk_id": "kb-003",
+      "title": "Daily enrichment minimum",
+      "content": "Cats and dogs benefit from at least one enrichment activity daily, even if short, to reduce stress behaviors."
+    },
+    {
+      "chunk_id": "kb-004",
+      "title": "Conflict management",
+      "content": "If two high-priority tasks collide, keep medication first and reschedule lower-risk tasks to the next open slot."
+    },
+    {
+      "chunk_id": "kb-005",
+      "title": "Task explanation style",
+      "content": "A clear schedule should include time, pet name, action, duration, and a short rationale for priority order."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+flowchart TD
+    A[User Input: Streamlit or CLI] --> B[Guardrails]
+    B --> C[Scheduler Core]
+    C --> D[RAG Retriever]
+    D --> E[Knowledge Base: assets/knowledge_base.json]
+    C --> F[Agent Planner Prompt]
+    D --> F
+    F --> G[Model Layer: Rule-Based or OpenAI]
+    G --> H[Agent Evaluator Checks]
+    H --> I[Response with Citations + Check Results]
+
+    J[Pytest Reliability Tests] --> C
+    J --> D
+    J --> H
+
+    K[Human Review in UI] --> I

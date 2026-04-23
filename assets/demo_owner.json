@@ -1,0 +1,80 @@
+{
+  "name": "Jordan",
+  "available_minutes_per_day": 120,
+  "preferences": {
+    "walk_window": "morning"
+  },
+  "pets": [
+    {
+      "name": "Mochi",
+      "species": "dog",
+      "age": 3,
+      "tasks": [
+        {
+          "description": "Morning walk",
+          "time": "08:00",
+          "frequency": "daily",
+          "priority": "high",
+          "duration_minutes": 30,
+          "due_date": "2026-04-22",
+          "completed": false,
+          "pet_name": "Mochi"
+        },
+        {
+          "description": "Breakfast",
+          "time": "07:30",
+          "frequency": "daily",
+          "priority": "high",
+          "duration_minutes": 15,
+          "due_date": "2026-04-22",
+          "completed": false,
+          "pet_name": "Mochi"
+        }
+      ]
+    },
+    {
+      "name": "Pixel",
+      "species": "cat",
+      "age": 5,
+      "tasks": [
+        {
+          "description": "Medication",
+          "time": "08:00",
+          "frequency": "daily",
+          "priority": "high",
+          "duration_minutes": 10,
+          "due_date": "2026-04-22",
+          "completed": false,
+          "pet_name": "Pixel"
+        },
+        {
+          "description": "Puzzle toy play",
+          "time": "18:00",
+          "frequency": "daily",
+          "priority": "medium",
+          "duration_minutes": 20,
+          "due_date": "2026-04-22",
+          "completed": false,
+          "pet_name": "Pixel"
+        }
+      ]
+    },
+    {
+      "name": "Sushi",
+      "species": "dog",
+      "age": 2,
+      "tasks": [
+        {
+          "description": "Morning walk",
+          "time": "08:30",
+          "frequency": "once",
+          "priority": "high",
+          "duration_minutes": 20,
+          "due_date": "2026-04-22",
+          "completed": false,
+          "pet_name": "Sushi"
+        }
+      ]
+    }
+  ]
+}
