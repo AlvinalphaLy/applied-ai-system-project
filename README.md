@@ -222,14 +222,14 @@ This project shows me as an AI engineer who values reliability and transparency 
 
 Use this checklist before submission:
 
-- [ ] Code pushed to the correct GitHub repository.
-- [ ] Repository is public.
+- [x] Code pushed to the correct GitHub repository.
+- [x] Repository is public.
 - [x] Required functional code present.
 - [x] Comprehensive README.md present.
 - [x] model_card.md present.
 - [x] System architecture diagram included (README and docs/architecture.mmd).
 - [x] Organized assets folder present.
-- [ ] Commit history shows multiple meaningful commits.
-- [ ] Standardized documentation finalized (base project + reflections + testing results).
+- [x] Commit history shows multiple meaningful commits.
+- [x] Standardized documentation finalized (base project + reflections + testing results).
 - [ ] Demo walkthrough link added (Loom/GIF/screenshots with 2-3 interactions).
-- [ ] Final changes committed and pushed before deadline.
+- [x] Final changes committed and pushed before deadline.
