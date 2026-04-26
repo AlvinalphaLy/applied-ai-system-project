@@ -87,6 +87,12 @@ streamlit run app.py
 python -m pytest
 ```
 
+7. Run the evaluation harness:
+
+```bash
+python scripts/eval_harness.py
+```
+
 ## Sample Interactions
 
 ### Example 1: Medication-first planning
@@ -173,6 +179,8 @@ Latest measurable results:
 
 - 5 out of 5 automated tests passed.
 - In the latest CLI run, 3 out of 3 reliability checks passed for the demo query.
+- Evaluation harness: 4 out of 4 predefined cases passed.
+- Evaluation harness confidence score: average 0.83.
 - Reliability improved after adding explicit grounded top-task text in agent responses.
 
 Known failure modes:
@@ -205,6 +213,10 @@ Known failure modes:
 - Flawed suggestion: an earlier default response path did not always mention the top scheduled task, causing a grounding miss; this was corrected by appending grounded task context in the agent output.
 
 See additional required reflection details in model_card.md.
+
+## Portfolio Artifact Reflection
+
+This project shows me as an AI engineer who values reliability and transparency over flashy outputs. I designed a system where model responses are grounded with retrieval evidence, evaluated with explicit checks, and supported by reproducible testing and guardrails. My engineering focus is building AI systems that can be audited, debugged, and trusted in practical workflows.
 
 ## Submission Checklist
 
